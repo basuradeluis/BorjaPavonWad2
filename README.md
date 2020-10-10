@@ -52,7 +52,7 @@ idclev##  (ir al mapa ##)
 
 ### 2.2 Instalación del Wad (bueno, pero da igual, es un .pk3)
 
-Descarga el archivo BorjaPavonWad.pk3 (entra dentro de el arriba y luego pulsa Download, o usa este enlace directo https://github.com/basuradeluis/BorjaPavonWad/raw/master/BorjaPavon.pk3 ) y colócalo de la misma manera que el doom2.wad dentro de C:\gzdoom.
+Descarga el archivo BorjaPavonWad.pk3 (entra dentro de el arriba y luego pulsa Download, o usa este enlace directo https://github.com/basuradeluis/BorjaPavonWad2/raw/master/BorjaPavon.pk3) y colócalo de la misma manera que el doom2.wad dentro de C:\gzdoom.
 
 **No es necesario descargar nada más**
 
