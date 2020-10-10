@@ -1,0 +1,101 @@
+world/barrelx sounds/MINOMBRE
+
+$random weapons/rocklx	{ world/barrelx  sandwich  }
+sandwich sounds/SANDWICH
+
+$playeralias	player	male	*grunt		menu/choose
+$playeralias	player	male	*usefail	menu/choose
+
+$playeralias   player  male    *xdeath         pl_death
+$playeralias   player  male    *death          pl_death
+$random pl_death { player/death1 player/death2 player/death3 player/death4 }
+player/death1 sounds/ESUNAMOV
+player/death2 sounds/LANIEVEE
+player/death3 sounds/MERECUER
+player/death4 sounds/MALNOREG
+
+$random weapons/pistol { pistola1 pistola2 pistola3 pistola4 }
+pistola1 sounds/PUM
+pistola2 sounds/PUM2
+pistola3 sounds/PUMDESTR
+pistola4 sounds/PUMCONCE
+
+//Plataformas moviendose
+plats/pt1_strt sounds/PIYTR
+
+$random doors/dr1_open	{ puerta1 puerta2 puerta3 }
+$random doors/dr2_open	{ puerta1 puerta2 puerta3 }
+puerta1 sounds/PAARRIBA
+puerta2 sounds/PANEOHAC
+puerta3 sounds/PROXIMAP
+
+$random misc/secret { secreto1 secreto2 secreto3 secreto4 secreto5 }
+secreto1 sounds/MAGNANIM
+secreto2 sounds/ESTUPEND
+secreto3 sounds/MARAVIMA
+secreto4 sounds/MARAVILL
+secreto5 sounds/FANTAVIL
+
+falsa sounds/FALSA
+
+$random grunt/attack { falsa disparo tosbote }
+disparo DSPISTOL
+tosbote sounds/TOSBOSTE
+
+grunt/active 	sounds/ENTOALAS
+grunt/sight1 	sounds/ENTOALAS
+grunt/sight2 	sounds/ESOESPAT
+grunt/sight3 	sounds/QUETALBI
+
+shotguy/active	sounds/ENTOALAS
+shotguy/sight1	sounds/BUENASTA
+shotguy/sight2	sounds/ESOESPAT
+
+imp/active  	sounds/ENTOALAS
+imp/sight1  	sounds/ESOESPAT
+imp/sight2		sounds/ENTOALAS
+
+demon/sight 	sounds/PORQUENO
+demon/active 	sounds/PORQUENO
+
+//10/10/2020:
+spider/sight			sounds/ESPIDERM
+spider/active			sounds/ESPIDERM
+spider/death			sounds/ESPIDERM
+baby/sight				sounds/ESPIDERM
+baby/active				sounds/ESPIDERM
+baby/death				sounds/ESPIDERM
+cyber/sight				sounds/SENIOR
+cyber/active			sounds/SENIOR
+cyber/death				sounds/SENIOR
+//fin 10/10/2020
+
+
+//Coger armas y powerup
+$random misc/w_pkup	{ secreto1 secreto2 secreto3 secreto4 secreto5 funcione funcione }
+$random misc/p_pkup { secreto1 secreto2 secreto3 secreto4 secreto5 funcione funcione }
+funcione sounds/FUNCIONE
+
+//alguna muerte mas
+chonflun sounds/CHONFLUN
+esunamov sounds/ESUNAMOV
+$random grunt/death		{ grunt/death1  chonflun  esunamov }
+$random shotguy/death	{ shotguy/death1  shotguy/death2  chonflun esunamov }
+
+
+
+///////////////
+intermission/nextstage sounds/YLAGENTE
+intermission/paststats sounds/PROXIMAP
+
+///////MENUS
+menu/activate	sounds/TOS
+menu/choose 	sounds/TOSBOSTE
+menu/clear		sounds/HUIR
+
+$random menu/quit1 { salir1 salir2 noheente menu/clear puerta3 player/death2 estaguay }
+$random menu/quit2 { salir1 salir2 noheente menu/clear puerta3 player/death2 estaguay }
+salir1 		sounds/MUERTEYD
+salir2 		sounds/VOYAPONE
+noheente	sounds/NOHEENTE
+estaguay	sounds/ESTAGUAY
