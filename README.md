@@ -1,6 +1,8 @@
 # BorjaPavonWad
 
-## 0 Versiones y cambios
+## 0. Versiones y cambios
+    25/10/2020:
+        Comienzo de FAQ... y próximo proyecto...
 
     10/10/2020:   
     Añadidos dos efectos nuevos. No son gran cosa pero bueno. Para verlos rapidamente lo mejor es ir al nivel map20 (idclev20) y luchar contra arañas (grande y pequeña) y el Cyberdemonio
@@ -118,3 +120,8 @@ Doom es una marca registrada de idSoftware
 
 ### 3.4 Disclaimer:
 Es mi primer (y último seguramente) modificación al Doom. No soy ningún experto pero bueno. Seguro que se puede hacer mejor o más divertido. Adelante, hazlo tú.
+
+### 3.5 FAQ:
+25/10/2020:
+"¿Se podrían cambiar además de los sonidos, las imagenes del Doom para poner, por ejemplo a Chonfluns, a Tom Nook, a Borja en las paredes y como enemigos?:
+Si, en teoría se puede hacer. Pero no quedaría bien porque no soy diseñador gráfico ni se nada de eso. Además cuesta mucho: está mal documentado/explicado en internet.... A no ser que.... Misterio"
