@@ -1,6 +1,10 @@
 # BorjaPavonWad
 
 ## 0. Versiones y cambios
+
+    02/11/2020:
+    Mejorado el volumen en algunos sonidos. Añadidos sonidos para las opciones "Spacial Chocolation" y otros.
+    Este fichero NO incluye cambios en las imágenes del Doom. Esto solo incluye cambios en los sonidos. Los archivos para cambiar texturas y enemigos, por el momento NO los voy a compartir por tema de copyright y por si alguien se siente ofendido (Borja Pavon, Hideo Kojim,a Steven Seagal :-) )
     25/10/2020:
         Comienzo de FAQ... y próximo proyecto...
 
@@ -115,7 +119,10 @@ Actualización 10/10/2020:
 [Los MOMENTOS MÁS LOCOS de los VIDEOJUEGOS #5](https://www.youtube.com/watch?v=NV24t8rSogY)
 
 ### 3.3 Copyright
-Dez Strundun es una marca de Borja Pavón. Chonfluns también. Etc, etc etc :-)
+Dez Strundun es una marca de Borja Pavón. 
+Chonfluns también. 
+Hideo Kojima es una marca registrada de sí mismo.
+Etc, etc etc :-)
 Doom es una marca registrada de idSoftware
 
 ### 3.4 Disclaimer:
