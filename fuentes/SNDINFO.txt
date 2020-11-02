@@ -3,8 +3,8 @@ world/barrelx sounds/MINOMBRE
 $random weapons/rocklx	{ world/barrelx  sandwich  }
 sandwich sounds/SANDWICH
 
-$playeralias	player	male	*grunt		menu/choose
-$playeralias	player	male	*usefail	menu/choose
+$playeralias	player	male	*grunt		tosboste
+$playeralias	player	male	*usefail	tosboste
 
 $playeralias   player  male    *xdeath         pl_death
 $playeralias   player  male    *death          pl_death
@@ -38,9 +38,9 @@ secreto5 sounds/FANTAVIL
 
 falsa sounds/FALSA
 
-$random grunt/attack { falsa disparo tosbote }
+$random grunt/attack { falsa disparo tosboste }
 disparo DSPISTOL
-tosbote sounds/TOSBOSTE
+tosboste sounds/TOSBOSTE
 
 grunt/active 	sounds/ENTOALAS
 grunt/sight1 	sounds/ENTOALAS
@@ -90,7 +90,12 @@ intermission/paststats sounds/PROXIMAP
 
 ///////MENUS
 menu/activate	sounds/TOS
-menu/choose 	sounds/TOSBOSTE
+
+$random menu/choose { spacial spectral subsurfa }
+spacial 	sounds/SPACIALS
+spectral	sounds/SPECTRAL
+subsurfa	sounds/SUBSURFA
+
 menu/clear		sounds/HUIR
 
 $random menu/quit1 { salir1 salir2 noheente menu/clear puerta3 player/death2 estaguay }
